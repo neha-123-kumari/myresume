@@ -1,0 +1,171 @@
+body{
+    margin: 0px auto;
+    width: 100%;
+    font-family: 'Lato', sans-serif;
+}
+nav ul li {
+    list-style-type: none;
+    float: left;
+    padding-right: 2.2em;
+    color: aliceblue;
+}
+nav ul{
+    float: right;
+    
+}
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: #a4c3cc;
+    position: fixed;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+section{
+    background-color: #383e56;
+}
+.home{
+    background-color: azure;
+    text-align: center;
+    display: table;
+    padding: 100px;
+    width: 100%;
+}
+
+.inner{
+    display: table-cell;
+    vertical-align: middle;
+}
+.home .inner img{
+    border-radius: 100%;
+    width: 250px;
+    height: 300px;
+}
+.home .inner h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+}
+.about{
+    display: table;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about .inner{
+   display: table-cell;
+   vertical-align: middle;
+   width: 50%;
+   float: left;
+   padding-top: 75px;
+   padding-left: 50px;
+}
+.about .inner h1{
+font-size: 48px;
+}
+.about .inner p{
+    font-size: 28px;
+}
+.education{
+    background-color: white;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.education .inner{
+    padding: 50px;
+}
+.education h1{
+    font-size: 42px;
+}
+.education .inner div{
+    width: 28%;
+    margin-left: 7px;
+    margin-right: 7px;
+    float: left;
+    text-align: center;
+}
+.education .inner div p{
+    font-size: 30px;
+}
+.education .inner div img{
+    width: 100px;
+    height: auto;
+}
+.hobbies {
+    background-color: white;
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.hobbies h1 , .skills h1 , .contact h1{
+    font-size: 42px;
+}
+.hobbies .inner , .contact .inner{
+    padding: 50px;
+}
+.hobbies .inner div img{
+    width: 100px;
+    height: auto;
+}
+.hobbies .inner div , .skills .inner div{
+    width: 28%;
+    margin-left: 7px;
+    margin-right: 7px;
+    float: left;
+    text-align: center;
+}
+.hobbies .inner div p , .skills .inner div ul li{
+    font-size: 20px;
+}
+.skills{
+    display: table;
+    height: 100vh;
+    width: 100%;
+background-image: url('https://www.thinktrekwebsoft.com/wp-content/themes/think/data1/images/banner.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+    
+}
+.skills .inner{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    color: white;
+}
+.skills.inner ul li{
+    list-style-type: none;
+}
+.skills .inner ul li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact{
+    display: table;
+    height: 100vh;
+    width: 100%;
+}
+.contact .inner div p{
+    font-size: 30px;
+}
+.contact .inner{
+    text-align: center;
+}
+/*responsive designing */
+@media('min-width:320px') and ('max-width:767px'){
+    .home .inner img {
+        padding-top: 60px;
+    }
+    .about .inner{
+        width: 100%;
+        padding: 25px;
+    }
+    .about .inner p{
+        font-size: 23px;
+        text-align: justify;
+    }
+    .education .inner div{
+        width: 100%;
+    }
+}
